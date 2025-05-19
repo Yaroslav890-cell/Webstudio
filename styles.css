@@ -4,24 +4,26 @@
 .main-menu{
   background-color: #2F303A;
 }
-.our-advantages{
-  background-color: #FFFFFF;
-}
-.team{
-  background-color: #FFFFFF;
-}
 .footer{
   background-color: #2F303A;
 }
-.menu-btn{
+.main-menu-btn{
   background-color: #2196F3;
   color: #FFFFFF;
+  line-height: 30px; /* 187.5% */
 }
 h1{
   color: #FFFFFF;
+  line-height: 60px; /* 136.364% */
 }
-.header-a{
-  color: #212121;
+.header-nav-link{
+  color: black;
+}
+.header-link{
+  color: black;
+}
+.logo{
+  color: black;
 }
 .footer-logo{
  color: #FFFFFF;
@@ -34,4 +36,14 @@ h1{
 }
 .Roboto{
   font-family: Roboto;
+}
+body{
+  font-family: Roboto;
+  line-height: normal;
+}
+.logo,.footer-logo{
+  font-family: Raleway;
+}
+.footer-text{
+  line-height: 24px; /* 171.429% */
 }

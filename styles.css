@@ -1,11 +1,22 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
 .header{
   background-color: #FFFFFF;
 }
 .main-menu{
   background-color: #2F303A;
+  padding: 200px 452px 280px 452px;
+}
+.our-advantages{
+}
+.team{
+  padding: 186px 215px 94px 215px;
 }
 .footer{
   background-color: #2F303A;
+  padding: 60px 1154px 161px 215px;
 }
 .main-menu-btn{
   background-color: #2196F3;

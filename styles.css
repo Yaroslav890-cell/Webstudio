@@ -4,15 +4,29 @@
 }
 .header{
   background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 93px;
 }
 .main-menu{
   background-color: #2F303A;
   padding: 200px 452px 280px 452px;
+
 }
 .our-advantages{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.our-advantages-list{
+  display: flex;
 }
 .team{
   padding: 186px 215px 94px 215px;
+  text-align: center;
+}
+.team-list{
+display: flex;
+gap: 30px;
 }
 .footer{
   background-color: #2F303A;
@@ -26,6 +40,7 @@
 h1{
   color: #FFFFFF;
   line-height: 60px; /* 136.364% */
+  width: 300px;
 }
 .header-nav-link{
   color: black;
@@ -38,9 +53,11 @@ h1{
 }
 .footer-logo{
  color: #FFFFFF;
+ margin-bottom: 10px;
 }
 .footer-text{
   color: #FFFFFF99;
+  width: 250px;
 }
 body{
   font-family: Roboto;
@@ -51,4 +68,25 @@ body{
 }
 .footer-text{
   line-height: 24px; /* 171.429% */
+}
+.main-menu-title{
+  display: flex;
+}
+.main-menu-btn{
+  display: flex;
+}
+.what-we-do-title{
+  margin-bottom: 30px;
+}
+.what-we-do{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 94px;
+}
+.what-we-do-gallery{
+display: flex;
+justify-content: center;
+gap: 30px;
 }

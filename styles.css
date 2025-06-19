@@ -3,7 +3,6 @@
   margin: 0 auto;
 }
 .header{
-  background-color: #FFFFFF;
   display: flex;
  justify-content: space-between;
  gap: 40px;
@@ -11,9 +10,9 @@
  margin-bottom: 20px;
 }
 .main-menu{
-  background-color: #2F303A;
-  padding: 200px 452px 280px 452px;
-
+ background-color: #2F303A;
+padding-top: 200px;
+padding-bottom: 280px ;
 }
 .our-advantages{
   margin-top: 50px;
@@ -23,7 +22,8 @@
   display: flex;
 }
 .team{
-  padding: 186px 215px 94px 215px;
+  padding-top:186px ;
+  padding-bottom: 84px;
   text-align: center;
 }
 .team-list{
@@ -32,7 +32,8 @@ gap: 30px;
 }
 .footer{
   background-color: #2F303A;
-  padding: 60px 1154px 161px 215px;
+  padding-top:60px ;
+  padding-bottom:161px;
 }
 .main-menu-btn{
   background-color: #2196F3;

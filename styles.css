@@ -2,6 +2,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+.logo-span{
+  color: #2196F3;
+}
 .header{
   display: flex;
  justify-content: space-between;
@@ -148,4 +151,10 @@ gap: 30px;
   gap: 30px;
   justify-content: center;
   margin-bottom: 50px;
+}
+.logo{
+font-size:26px;
+}
+.footer-logo{
+font-size:26px ;
 }

@@ -9,10 +9,34 @@
  margin-top: 20px;
  margin-bottom: 20px;
 }
+.nav{
+ display: flex;
+}
+.nav-list{
+  display: flex;
+  gap: 20px;
+}
+.phone-list{
+  display: flex;
+  gap: 20px;
+}
 .main-menu{
  background-color: #2F303A;
 padding-top: 200px;
-padding-bottom: 280px ;
+padding-bottom: 280px 
+}
+.main-menu-title{
+ font-size: 44px;
+width: 500px;
+text-align: center;
+}
+.menu-container{
+  display: flex;
+      flex-direction: column;
+    align-items: center;
+}
+.header-link:nth-child(2){
+  margin-right: 20px;
 }
 .our-advantages{
   margin-top: 50px;
@@ -21,15 +45,29 @@ padding-bottom: 280px ;
 .our-advantages-list{
   display: flex;
 }
+.our-advantages-title{
+  margin-bottom: 10px;
+}
 .team{
   padding-top:186px ;
   padding-bottom: 84px;
   text-align: center;
 }
+.team-h2{
+  margin-bottom: 50px;
+}
 .team-list{
 display: flex;
 gap: 30px;
 }
+.team-img{
+ #
+}
+.team-title{
+ margin-top: 30px;
+ margin-bottom: 10px;
+}
+
 .footer{
   background-color: #2F303A;
   padding-top:60px ;
@@ -39,6 +77,9 @@ gap: 30px;
   background-color: #2196F3;
   color: #FFFFFF;
   line-height: 30px; /* 187.5% */
+  width: 215px;
+  height: 50px;
+  text-align: center;
 }
 h1{
   color: #FFFFFF;
@@ -57,6 +98,10 @@ h1{
 .footer-logo{
  color: #FFFFFF;
  margin-bottom: 10px;
+}
+.footer-container{
+  margin-left: 215px;
+  background-color: #2F303A;
 }
 .footer-text{
   color: #FFFFFF99;

@@ -24,14 +24,16 @@
   gap: 20px;
 }
 .main-menu{
- background-color: #2F303A;
+background-image: url(./img/main-bg.jpg);
 padding-top: 200px;
 padding-bottom: 280px 
+
 }
 .main-menu-title{
  font-size: 44px;
 width: 500px;
 text-align: center;
+
 }
 .menu-container{
   display: flex;
@@ -161,4 +163,5 @@ font-size:26px;
 }
 .footer-logo{
 font-size:26px ;
+
 }

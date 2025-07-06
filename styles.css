@@ -26,7 +26,7 @@
   gap: 20px;
 }
 .main-menu{
-background-image: url(./img/main-bg.jpg);
+background-image: url(./img/menu-bg.jpg);
 background-repeat: no-repeat;
 height: 600px;
 padding-top: 200px;
@@ -92,6 +92,7 @@ gap: 30px;
   padding-left: 30px;
   padding-top: 8px;
   text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(157, 154, 154, 0.15);
 }
 h1{
   color: #FFFFFF;
@@ -172,4 +173,7 @@ font-size:26px;
 .footer-logo{
 font-size:26px ;
 
+}
+.team-item{
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }

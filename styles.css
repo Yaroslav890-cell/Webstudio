@@ -6,6 +6,9 @@
   color: #2196F3;
 
 }
+.logo{
+  margin-left: 215px;
+}
 .header{
   display: flex;
  justify-content: space-between;
@@ -46,10 +49,14 @@ text-align: center;
     align-items: center;
 }
 .header-link:nth-child(2){
-  margin-right: 20px;
+  margin-right: 100px;
 }
 .header-link{
   color: #757575;
+  transition: 2s;
+}
+.header-link:hover{
+  color: #2196F3;
 }
 .our-advantages{
   margin-top: 50px;
@@ -57,9 +64,21 @@ text-align: center;
 }
 .our-advantages-list{
   display: flex;
+  gap: 40px;
+  justify-content: center;
 }
 .our-advantages-title{
   margin-bottom: 10px;
+}
+.our-advantages-item{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.our-advantages-img{
+ width: 70px;
+height: 70px;
 }
 .team{
   padding-top:186px ;
@@ -101,6 +120,11 @@ h1{
 }
 .header-nav-link{
   color: black;
+  transition: 2s;
+
+}
+.header-nav-link:hover{
+  color: #2196F3;
 }
 .logo{
   color: black;

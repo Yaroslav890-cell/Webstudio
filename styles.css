@@ -9,6 +9,19 @@
 .logo{
   margin-left: 215px;
 }
+.work-menu-btn{
+  width: 125px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F5F4FA;
+border: none;
+
+}
+.work-menu-btn:hover{
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
 .header{
   display: flex;
  justify-content: space-between;
@@ -199,5 +212,23 @@ font-size:26px ;
 
 }
 .team-item{
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+  
+}
+.work-menu-list-img-item:hover{
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+
+}
+.work-menu-title{
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+.work-menu-text{
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+.work-menu-list-img-item{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

@@ -44,9 +44,11 @@ border: none;
 .main-menu{
 background-image: url(./img/menu-bg.jpg);
 background-repeat: no-repeat;
+background-position: center;
 height: 600px;
 padding-top: 200px;
 padding-bottom: 280px 
+
 
 
 }
@@ -330,9 +332,6 @@ width: 370px;
 height: 70px;
 padding-top: 30px;
 }
-.what-we-do-img{
-
-}
 .image-text-2{
 position: absolute;
 bottom: 0px;
@@ -362,4 +361,23 @@ width: 370px;
 height: 70px;
 padding-top: 30px;
 
+}
+.send-img{
+  width: 24px;
+height: 24px;
+z-index: 1;
+fill: #FFF;
+}
+.subscribe-btn{
+  border-radius: 4px;
+background: #2196F3;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
 }

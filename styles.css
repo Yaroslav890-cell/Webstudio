@@ -150,7 +150,7 @@ h1{
  margin-bottom: 10px;
 }
 .footer-container{
-  margin-left: 215px;
+  margin-left: 100px;
   background-color: #2F303A;
   display: flex;
 }
@@ -380,4 +380,39 @@ font-size: 16px;
 font-weight: 700;
 line-height: 30px; /* 187.5% */
 letter-spacing: 0.96px;
+margin-left: 12px;
+}
+.subscribe-form{
+  display: flex;
+  justify-content: center;
+}
+.subscribe-wrapper{
+  display: flex;
+  flex-direction: column;
+margin-left: 93px;
+
+}
+.subscribe-input{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.48px;
+width: 308px;
+height: 50px;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.subscribe-titile{
+  color: #FFF;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
 }

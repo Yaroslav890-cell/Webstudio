@@ -66,11 +66,12 @@ text-align: center;
 .header-link:nth-child(2){
   margin-right: 100px;
 }
-.header-link{
+.header-nav-link{
   color: #757575;
   transition: 2s;
+  
 }
-.header-link:hover{
+.header-nav-link:hover{
   color: #2196F3;
 }
 .our-advantages{
@@ -116,6 +117,7 @@ gap: 30px;
  margin-top: 30px;
  margin-bottom: 10px;
 }
+
 
 .footer{
   background-color: #2F303A;
@@ -233,6 +235,7 @@ font-size:26px ;
     display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 .team-item svg {
   border-radius: 50%;
@@ -416,3 +419,38 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 margin-bottom: 20px;
 }
+.active::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+border-radius: 2px;
+background: #2196F3;
+margin-top: 28px;
+}
+.overlay-box{
+  position: relative;
+  overflow: hidden;
+}
+.overlay{
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.90);
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}
+.overlay-box:hover .overlay {
+  transform: translatey(0);
+}
+.overlay-text{
+  color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px;
+margin: 63px 24px 63px 24px;
+}
+
